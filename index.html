@@ -1,0 +1,628 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa Kids - Aluguel de Brinquedos para Festas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Fredoka+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-birthday-cake"></i>Festa Kids
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brinquedos">Brinquedos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <a href="#contato" class="btn btn-primary ms-2 ms-lg-3">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content text-center text-lg-start">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+                        alt="Festa Kids Logo" class="logo fade-in">
+                    <h1 class="display-5 fw-bold mb-3 fade-in" style="animation-delay: 0.2s">Festa Kids</h1>
+                    <h2 class="h5 text-muted mb-3 fade-in" style="animation-delay: 0.4s">Aluguel de Brinquedos para
+                        Festas e Eventos</h2>
+                    <p class="mb-4 fade-in" style="animation-delay: 0.6s">
+                        Transforme qualquer evento em uma festa inesquecível com nossos brinquedos infláveis,
+                        pula-pulas, tobogãs e muito mais. Segurança, diversão e qualidade garantidas!
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start fade-in"
+                        style="animation-delay: 0.8s">
+                        <a href="#brinquedos" class="btn btn-primary btn-sm">Ver Brinquedos</a>
+                        <a href="#contato" class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-phone"></i> Ligue Agora
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                        alt="Crianças se divertindo" class="img-fluid rounded-4 shadow fade-in"
+                        style="animation-delay: 1s">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa Section -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quem Somos</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-in">
+                    <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                        alt="Equipe Festa Kids" class="img-fluid rounded-4 shadow w-100">
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <h3 class="mb-3 fade-in" style="animation-delay: 0.2s">A <span class="highlight">Melhor
+                            Experiência</span> para Suas Festas</h3>
+                    <p class="mb-3 fade-in" style="animation-delay: 0.4s">
+                        A Festa Kids é uma empresa especializada no aluguel de brinquedos infláveis e equipamentos para
+                        festas infantis, eventos corporativos, escolares e comunitários. Fundada em 2010, já realizamos
+                        mais de 2.000 eventos com sucesso.
+                    </p>
+                    <p class="mb-4 fade-in" style="animation-delay: 0.6s">
+                        Nossa missão é proporcionar momentos de pura diversão e alegria para crianças e adultos, com
+                        brinquedos modernos, seguros e de alta qualidade. Todos os nossos equipamentos passam por
+                        rigorosos testes de segurança e são higienizados após cada uso.
+                    </p>
+                    <div class="row fade-in" style="animation-delay: 0.8s">
+                        <div class="col-md-6 col-12 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Segurança Garantida</h5>
+                                    <p class="text-muted mb-0 small">Todos os brinquedos possuem certificação de
+                                        segurança e são supervisionados durante o uso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="feature-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Atendimento Personalizado</h5>
+                                    <p class="text-muted mb-0 small">Equipe treinada para atender suas necessidades
+                                        específicas e garantir sua satisfação.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="feature-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Entrega e Montagem</h5>
+                                    <p class="text-muted mb-0 small">Serviços completos de entrega, montagem e
+                                        desmontagem em todo o território nacional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="feature-icon">
+                                    <i class="fas fa-spray-can"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Higienização</h5>
+                                    <p class="text-muted mb-0 small">Todos os brinquedos são higienizados com produtos
+                                        especiais após cada uso.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Brinquedos Section -->
+    <section class="section bg-light" id="brinquedos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Brinquedos</h2>
+            </div>
+            <p class="text-center mb-4 mb-lg-5 lead small">Confira nossa variedade de brinquedos infláveis e
+                equipamentos para todos os tipos de eventos</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Pula-Pula">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Pula-Pula Inflável</h4>
+                            <p class="text-muted small">Perfeito para crianças de todas as idades. Diversão garantida
+                                com saltos e pulos seguros.</p>
+                            <div class="price-tag">A partir de R$ 350</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Capacidade: 8-10 crianças</span>
+                                <span class="badge bg-success small">Idade: 3+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Tobogã Inflável">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Tobogã Inflável</h4>
+                            <p class="text-muted small">A sensação do momento! Tobogãs de diferentes tamanhos e temas
+                                para mais emoção.</p>
+                            <div class="price-tag">A partir de R$ 450</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Altura: 3m a 6m</span>
+                                <span class="badge bg-success small">Idade: 5+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Cama Elástica">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Cama Elástica</h4>
+                            <p class="text-muted small">A clássica diversão com segurança máxima. Ideal para festas e
+                                eventos esportivos.</p>
+                            <div class="price-tag">A partir de R$ 400</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Diâmetro: 4m</span>
+                                <span class="badge bg-success small">Idade: 4+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Castelo Inflável">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Castelo Inflável</h4>
+                            <p class="text-muted small">Um verdadeiro castelo mágico com escorregador, paredes para
+                                escalada e muito mais.</p>
+                            <div class="price-tag">A partir de R$ 500</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Tamanho: 5x5m</span>
+                                <span class="badge bg-success small">Idade: 3+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Labirinto Inflável">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Labirinto Inflável</h4>
+                            <p class="text-muted small">Desafio e diversão em um labirinto cheio de obstáculos e
+                                surpresas.</p>
+                            <div class="price-tag">A partir de R$ 550</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Tamanho: 6x4m</span>
+                                <span class="badge bg-success small">Idade: 6+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 fade-in">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1593483076184-7e87808b5683?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            class="brinquedo-img w-100" alt="Circuito de Obstáculos">
+                        <div class="card-body text-center">
+                            <h4 class="h5">Circuito de Obstáculos</h4>
+                            <p class="text-muted small">Desafie seus amigos em um circuito completo com paredes, túneis
+                                e escorregadores.</p>
+                            <div class="price-tag">A partir de R$ 600</div>
+                            <div class="mt-2">
+                                <span class="badge bg-primary small">Tamanho: 8x4m</span>
+                                <span class="badge bg-success small">Idade: 8+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 mt-lg-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h4 class="h5"><i class="fas fa-gift"></i> Pacotes Especiais</h4>
+                            <p class="mb-3 small">Economize com nossos pacotes combinados para festas e eventos:</p>
+                            <div class="row">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="p-2 h-100">
+                                        <div class="service-icon">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <h6 class="h6">Pacote Básico</h6>
+                                        <p class="small text-muted mb-1">Pula-pula + Tobogã</p>
+                                        <p class="fw-bold mb-0">R$ 650</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="p-2 h-100">
+                                        <div class="service-icon">
+                                            <i class="fas fa-crown"></i>
+                                        </div>
+                                        <h6 class="h6">Pacote Premium</h6>
+                                        <p class="small text-muted mb-1">Castelo + Labirinto + Cama Elástica</p>
+                                        <p class="fw-bold mb-0">R$ 1.200</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="p-2 h-100">
+                                        <div class="service-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
+                                        <h6 class="h6">Pacote Completo</h6>
+                                        <p class="small text-muted mb-1">Todos os brinquedos + Decoração</p>
+                                        <p class="fw-bold mb-0">R$ 2.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#contato" class="btn btn-primary btn-sm mt-2">Solicitar Pacote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section class="section" id="galeria">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeria de Fotos</h2>
+            </div>
+            <p class="text-center mb-4 mb-lg-5 lead small">Confira alguns momentos de diversão em nossos eventos</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 1" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 2" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 3" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 4" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 5" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 fade-in">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+                            alt="Evento 6" class="gallery-img w-100">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 mt-lg-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h4 class="h5"><i class="fas fa-users"></i> Depoimentos de Clientes</h4>
+                            <div class="row mt-3">
+                                <div class="col-md-6 col-12 mb-3">
+                                    <div class="testimonial">
+                                        <p class="mb-3 small">
+                                            "A Festa Kids transformou o aniversário do meu filho em um evento
+                                            inesquecível! Os brinquedos eram modernos, seguros e as crianças adoraram.
+                                            Recomendo a todos!"
+                                        </p>
+                                        <div class="testimonial-footer">
+                                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+                                                alt="Cliente" class="testimonial-img">
+                                            <div>
+                                                <h6 class="mb-0 h6">Carla Mendes</h6>
+                                                <small class="text-muted small">Aniversário no Parque</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 mb-3">
+                                    <div class="testimonial">
+                                        <p class="mb-3 small">
+                                            "Contratamos os brinquedos para o evento da empresa e foi um sucesso total!
+                                            Os funcionários e suas famílias se divertiram muito. A equipe foi pontual e
+                                            profissional."
+                                        </p>
+                                        <div class="testimonial-footer">
+                                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+                                                alt="Cliente" class="testimonial-img">
+                                            <div>
+                                                <h6 class="mb-0 h6">André Silva</h6>
+                                                <small class="text-muted small">Evento Corporativo</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="section bg-light" id="contato">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fale Conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title h5 mb-3">Informações de Contato</h4>
+                            <p class="mb-3 small">
+                                Estamos à disposição para atender suas dúvidas, fornecer orçamentos personalizados ou
+                                agendar seu evento. Entre em contato conosco!
+                            </p>
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="icon-box bg-primary text-white rounded-circle me-3"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 h6">Endereço</h6>
+                                    <p class="text-muted mb-0 small">Avenida das Crianças 123<br>Parque
+                                        Industrial<br>Cidade, Estado</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="icon-box bg-success text-white rounded-circle me-3"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 h6">Telefone</h6>
+                                    <p class="text-muted mb-0 small">(11) 99999-9999</p>
+                                    <p class="text-muted mb-0 small">(11) 3333-3333</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="icon-box bg-info text-white rounded-circle me-3"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 h6">Email</h6>
+                                    <p class="text-muted mb-0 small">contato@festakids.com.br</p>
+                                    <p class="text-muted mb-0 small">orcamento@festakids.com.br</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <div class="icon-box bg-warning text-white rounded-circle me-3"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 h6">Horário de Atendimento</h6>
+                                    <p class="text-muted mb-0 small">Segunda a Sexta: 8:00 - 18:00</p>
+                                    <p class="text-muted mb-0 small">Sábado: 9:00 - 13:00</p>
+                                    <p class="text-muted mb-0 small">Domingo: Fechado</p>
+                                </div>
+                            </div>
+
+                            <div class="mt-3 p-3 bg-white rounded">
+                                <h6 class="mb-2 h6"><i class="fas fa-check-circle me-2 text-success"></i> Por que
+                                    escolher a Festa Kids?</h6>
+                                <ul class="list-unstyled small mb-0">
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i> Brinquedos novos e
+                                        modernos</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i> Equipe de montagem
+                                        profissional</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i> Seguro para todos os
+                                        eventos</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i> Higienização após
+                                        cada uso</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Atendimento personalizado</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="card">
+                        <div class="card-body contact-form">
+                            <h4 class="card-title h5 mb-3">Envie-nos uma Mensagem</h4>
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label small">Nome Completo</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Seu nome"
+                                            required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="phone" class="form-label small">Telefone</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="Seu telefone"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label small">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="seu@email.com"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label small">Assunto</label>
+                                    <select class="form-select" id="subject" required>
+                                        <option value="">Selecione</option>
+                                        <option value="orcamento">Solicitar Orçamento</option>
+                                        <option value="duvida">Dúvidas</option>
+                                        <option value="sugestao">Sugestões</option>
+                                        <option value="reclamacao">Reclamações</option>
+                                        <option value="outro">Outro</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="eventDate" class="form-label small">Data do Evento (se
+                                        aplicável)</label>
+                                    <input type="date" class="form-control" id="eventDate">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label small">Mensagem</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem..."
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-sm">Enviar Mensagem</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-heading">Festa Kids</h5>
+                    <p class="text-muted small">
+                        A melhor empresa de aluguel de brinquedos infláveis para festas e eventos. Diversão garantida
+                        para crianças de todas as idades.
+                    </p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-heading">Links Rápidos</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-1"><a href="#sobre" class="text-muted text-decoration-none">Sobre Nós</a></li>
+                        <li class="mb-1"><a href="#brinquedos" class="text-muted text-decoration-none">Nossos
+                                Brinquedos</a></li>
+                        <li class="mb-1"><a href="#galeria" class="text-muted text-decoration-none">Galeria de Fotos</a>
+                        </li>
+                        <li class="mb-1"><a href="#contato" class="text-muted text-decoration-none">Contato</a></li>
+                        <li class="mb-1"><a href="#" class="text-muted text-decoration-none">Política de Privacidade</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-heading">Newsletter</h5>
+                    <p class="text-muted mb-2 small">Receba nossas novidades, promoções e dicas para festas incríveis.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row">
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Seu email"
+                            style="font-size: 0.8rem; padding: 0.5rem;">
+                        <button class="btn btn-primary btn-sm">Inscrever</button>
+                    </div>
+                    <div class="mt-3">
+                        <h6 class="text-white mb-2 h6">Formas de Pagamento</h6>
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <i class="fab fa-cc-visa fa-lg me-2 text-white"></i>
+                            <i class="fab fa-cc-mastercard fa-lg me-2 text-white"></i>
+                            <i class="fab fa-cc-amex fa-lg me-2 text-white"></i>
+                            <i class="fab fa-pix fa-lg text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center mb-2">
+                <p class="mb-0 small">
+                    © 2024 Festa Kids. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+```
